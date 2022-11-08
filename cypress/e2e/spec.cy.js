@@ -1,5 +1,6 @@
 describe('GifExpertApp test', () => {
   it('Gets SAO Gifs', () => {
+    //Debe correr primero la app con npm run dev
     cy.visit('http://localhost:5173/');
 
     // cy.contains('type').click();
